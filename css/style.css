@@ -1,0 +1,443 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+ul{
+	padding: 0;
+	margin: 0;
+}
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+/***********
+ header css
+ ***********/
+
+header{
+	background: #000;
+}
+
+header .container-fluid{
+	padding: 0;
+}
+.nav-link{
+	color: #b0b0b0 !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover{
+	color: rgba(255, 255, 255, 1.0) !important;
+}
+.nav-item{
+	margin-left: 16px;
+}
+
+/***********
+banner css
+ ***********/
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../image/background.png), center,no-repeat;
+	background-size: cover;
+}
+
+.banner-left,.banner-right{
+	height: 90vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.b-title{
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 400;
+	margin-right: 21px;
+	margin-top: 20px;
+}
+
+.line{
+	height: 2px;
+	width: 80px;
+	background: white;
+	margin: 32px 0;
+}
+
+.b-text{
+	font-family: 'Raleway', sans-serif;
+	color: #a6a6a8;
+	font-weight: 300;
+}
+
+.b-btn{
+	margin-top: 15px;
+	padding: 12px 32px;
+	background: transparent;
+	color: white;
+	border: 2px solid white;
+}
+
+.b-btn:hover{
+	background: white;
+	color: black;
+}
+
+.form-box{
+	background: white;
+	border-radius: 6px;
+}
+
+.f-headar{
+	background: #f5f5f5;
+	padding: 14px;
+	text-align: center;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+
+.f-headar h3{
+	margin: 0;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+
+}
+
+.f-headar h3 span{
+	color: #ff9b51;
+	text-transform: uppercase;
+}
+
+.f-body{
+	padding: 20px 42px;
+}
+
+.f-body input{
+	padding: 16px;
+	margin: 8px 0px;
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+.f-body input:focus{
+	outline: none;
+	border-bottom: 1px solid #ff9b51;
+}
+
+.f-body input:nth-child(3){
+	margin-bottom: 24px;
+}
+
+.f-footer{
+	text-align: center;
+}
+
+.f-footer input{
+	width: 100%;
+	padding: 16px;
+	border: none;
+	background: #ff9b51;
+	color: white;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+
+/***********
+socail css
+ ***********/
+
+.socail-media{
+	width: 100%;
+	padding: 16px 0;
+/*	border-bottom: 2px solid #b7b7b7;*/
+}
+
+.sm-left{
+	text-align: left;
+
+}
+
+.sm-left h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.sm-left p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #cccccc;
+
+}
+
+.sm-right{
+	text-align: right;
+	margin-top: 17px;
+}
+
+
+.sm-right ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.sm-right ul li a i{
+	color: #cccccc;
+	font-size: 56px;
+}
+
+
+/***********
+socail css
+ ***********/
+
+.main-feature{
+	width: 100%;
+	padding: 120px 0;
+	background-color: #f5f5f5;
+	box-shadow: inset 4px 0px 16px rgb(0 0 0 / 30%);	
+}
+
+.mf-left{
+
+}
+
+.mf-left ul li{
+	list-style: none;
+	background-color: #333333;
+	width: 125px;
+	margin-bottom: 2px;
+	height: 115px;
+	text-align: center;
+	line-height: 115px;
+	font-weight: 600;
+	font-size: 18px;
+	color: white;
+
+}
+
+.mf-left ul li:hover{
+	cursor: pointer;
+	background: #ff8b38;
+}
+.selected{
+	background: #ff8b38 !important;
+}
+
+.mf-left ul li:first-child{
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+}
+
+.mf-left ul li:last-child{
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+.mf-middle .b-btn{
+	background-color: #ff8b38;
+	border: none;
+	border-radius: 2px;
+}
+
+.mf-middle .b-btn:hover{
+	background: black;
+	color: #ff8b38;
+}
+
+.mf-middle h5{
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	font-weight: 700;
+}
+.mf-middle p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 40px 0;
+}
+
+
+/***********
+2nd feature css
+ ***********/
+
+.features-2{
+	margin: 80px 0;
+}
+
+
+.f-line {
+  height: 2px;
+  width: 68px;
+  background: #ff8b38;
+  margin: 20px 0;
+}
+
+.fbottom-right{
+	display: flex;
+}
+
+.f-top-right h2{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.f-top-right p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+.br-icon1 ul li{
+	list-style: none;
+}
+
+.br-icon1 ul li a{
+	color: #ff8b38;
+}
+
+.br-icon1 ul li i {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+.br-icon1 ul a i:hover {
+  cursor: pointer;
+  transform: scale(1.3);
+  background-color: #10d8ff;
+  color: rgb(240, 0, 232);
+}
+.fb-title h4{
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.fb-title p{
+	margin-left: 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+/***********
+3nd feature css
+ ***********/
+.f3-features{
+	background: #f5f5f5;
+	padding: 80px 0;
+}
+
+/*.f3-left{
+	margin-top: 80px;
+}
+
+.f3-right{
+	margin-top: 80px;
+*/}
+
+.f3-left h2{
+	font-size: 20px;
+	font-weight: 600;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.f3-left p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+/***********
+4nd feature css
+ ***********/
+
+
+.f4-features{
+	margin: 80px 0;
+}
+
+.f4-title{
+	text-align: center;
+}
+
+.f4-line{
+	display: inline-grid;
+	height: 2px;
+  width: 75px;
+  background: #ff8b38;
+  margin: 20px 0;
+}
+
+
+.f4-title h1{
+	font-size: 45px;
+	font-weight: 600;
+	font-family: 'Raleway', sans-serif;
+}
+
+.f4-title p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+.f4-body{
+	display:flex;
+	text-align: center;
+	margin: 80px 0;
+}
+
+.f4-body .f4-items a i {
+  width: 50px;
+  height: 50px;
+  line-height: 43px;
+  text-align: center;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  color: #ff8b38;
+  cursor: pointer;
+  transition: .5s;
+  font-size: 25px;
+}
+
+.f4-body .f4-items a i:hover {
+  transform: scale(1.1);
+  background-color: #f18f49;
+  color: rgb(243, 239, 239);
+}
+.f4-items h3{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Raleway', sans-serif;
+}
+
+.f4-items p{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+	font-size: 14px;
+	font-weight: 300;
+	padding: 0 10px;
+}
